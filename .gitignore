@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+.venv/
+
+# Secrets
+.streamlit/secrets.toml
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
