@@ -84,8 +84,7 @@ SCOPES = [
 ]
 
 # Local development redirect URI
-REDIRECT_URI = "http://localhost:8501"
-
+REDIRECT_URI = "https://snapfind-jrhfmt2cpppwlyv52naymp.streamlit.app"
 GOOGLE_AUTH_URL = (
     "https://accounts.google.com/o/oauth2/v2/auth"
 )
