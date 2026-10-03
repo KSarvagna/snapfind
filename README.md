@@ -149,7 +149,7 @@ Open the local Streamlit URL shown in your terminal.
 
 ## 🔐 Security
 
-SnapFind uses local files for development credentials.
+SnapFind keeps sensitive credentials outside the public repository.
 
 The following files are intentionally excluded from GitHub:
 
@@ -157,13 +157,8 @@ The following files are intentionally excluded from GitHub:
 .streamlit/secrets.toml
 credentials.json
 token.json
+gmail_web_credentials.json
 venv/
-```
-
-Do **not** publish API keys, OAuth client secrets, access tokens, or refresh tokens.
-
-If a secret is accidentally committed, revoke or rotate it immediately and remove it from the repository history.
-
 ---
 
 ## ⚠️ Current Scope
