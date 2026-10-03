@@ -127,21 +127,15 @@ GEMINI_API_KEY = "your-gemini-api-key"
 
 ### 5. Configure Gmail
 
-For Gmail sending, create a Google Cloud project, enable the Gmail API, configure OAuth, and download your OAuth client credentials as:
+SnapFind uses the Gmail API with Google OAuth 2.0 to send shopping summaries.
 
-```text
-credentials.json
-```
+For deployment on Streamlit Community Cloud, add these values through the app's **Secrets** settings:
 
-Keep this file local and never commit it.
+```toml
+GEMINI_API_KEY = "your-gemini-api-key"
 
-On the first Gmail authorization, SnapFind creates:
-
-```text
-token.json
-```
-
-This file is also ignored by Git and must remain private.
+GOOGLE_CLIENT_ID = "your-google-client-id"
+GOOGLE_CLIENT_SECRET = "your-google-client-secret"
 
 ### 6. Start SnapFind
 
