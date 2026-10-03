@@ -80,7 +80,7 @@ snapfind/
 ├── .gitignore          # Protects local secrets and generated files
 │
 └── .streamlit/
-    └── secrets.toml    # Local API key configuration (not committed)
+    └── secrets.toml.example    # Local API key configuration (not committed)
 ```
 
 ---
